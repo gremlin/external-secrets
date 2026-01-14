@@ -1,6 +1,6 @@
 module github.com/external-secrets/external-secrets-e2e
 
-go 1.18
+go 1.23.0
 
 replace github.com/external-secrets/external-secrets => ../
 
@@ -57,7 +57,7 @@ require (
 	github.com/oracle/oci-go-sdk/v56 v56.1.0
 	github.com/scaleway/scaleway-sdk-go v1.0.0-beta.14
 	github.com/xanzy/go-gitlab v0.81.0
-	golang.org/x/oauth2 v0.6.0
+	golang.org/x/oauth2 v0.27.0
 	google.golang.org/api v0.114.0
 	k8s.io/api v0.26.3
 	k8s.io/apiextensions-apiserver v0.26.3
@@ -69,8 +69,7 @@ require (
 )
 
 require (
-	cloud.google.com/go/compute v1.18.0 // indirect
-	cloud.google.com/go/compute/metadata v0.2.3 // indirect
+	cloud.google.com/go/compute/metadata v0.3.0 // indirect
 	cloud.google.com/go/iam v0.13.0 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
